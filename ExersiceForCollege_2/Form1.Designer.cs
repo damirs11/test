@@ -62,7 +62,7 @@
             // 
             // bsin
             // 
-            this.bsin.Location = new System.Drawing.Point(300, 94);
+            this.bsin.Location = new System.Drawing.Point(14, 278);
             this.bsin.Name = "bsin";
             this.bsin.Size = new System.Drawing.Size(40, 37);
             this.bsin.TabIndex = 0;
@@ -73,7 +73,7 @@
             // bCos
             // 
             this.bCos.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.bCos.Location = new System.Drawing.Point(346, 94);
+            this.bCos.Location = new System.Drawing.Point(60, 279);
             this.bCos.Name = "bCos";
             this.bCos.Size = new System.Drawing.Size(40, 37);
             this.bCos.TabIndex = 1;
@@ -83,7 +83,7 @@
             // 
             // bTg
             // 
-            this.bTg.Location = new System.Drawing.Point(392, 94);
+            this.bTg.Location = new System.Drawing.Point(106, 280);
             this.bTg.Name = "bTg";
             this.bTg.Size = new System.Drawing.Size(40, 37);
             this.bTg.TabIndex = 2;
@@ -94,7 +94,7 @@
             // bCtg
             // 
             this.bCtg.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.bCtg.Location = new System.Drawing.Point(300, 137);
+            this.bCtg.Location = new System.Drawing.Point(152, 280);
             this.bCtg.Name = "bCtg";
             this.bCtg.Size = new System.Drawing.Size(40, 37);
             this.bCtg.TabIndex = 3;
@@ -104,7 +104,7 @@
             // 
             // bAbs
             // 
-            this.bAbs.Location = new System.Drawing.Point(346, 137);
+            this.bAbs.Location = new System.Drawing.Point(198, 279);
             this.bAbs.Name = "bAbs";
             this.bAbs.Size = new System.Drawing.Size(40, 37);
             this.bAbs.TabIndex = 4;
@@ -114,7 +114,7 @@
             // 
             // bLn
             // 
-            this.bLn.Location = new System.Drawing.Point(392, 137);
+            this.bLn.Location = new System.Drawing.Point(244, 279);
             this.bLn.Name = "bLn";
             this.bLn.Size = new System.Drawing.Size(40, 37);
             this.bLn.TabIndex = 5;
@@ -125,7 +125,7 @@
             // bExp
             // 
             this.bExp.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.bExp.Location = new System.Drawing.Point(300, 180);
+            this.bExp.Location = new System.Drawing.Point(14, 325);
             this.bExp.Name = "bExp";
             this.bExp.Size = new System.Drawing.Size(40, 37);
             this.bExp.TabIndex = 6;
@@ -135,7 +135,7 @@
             // 
             // bx_y
             // 
-            this.bx_y.Location = new System.Drawing.Point(346, 180);
+            this.bx_y.Location = new System.Drawing.Point(106, 324);
             this.bx_y.Name = "bx_y";
             this.bx_y.Size = new System.Drawing.Size(40, 37);
             this.bx_y.TabIndex = 7;
@@ -146,7 +146,7 @@
             // bSqrt
             // 
             this.bSqrt.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.bSqrt.Location = new System.Drawing.Point(392, 180);
+            this.bSqrt.Location = new System.Drawing.Point(60, 325);
             this.bSqrt.Name = "bSqrt";
             this.bSqrt.Size = new System.Drawing.Size(40, 37);
             this.bSqrt.TabIndex = 8;
@@ -156,7 +156,7 @@
             // 
             // bX_in2
             // 
-            this.bX_in2.Location = new System.Drawing.Point(300, 223);
+            this.bX_in2.Location = new System.Drawing.Point(152, 324);
             this.bX_in2.Name = "bX_in2";
             this.bX_in2.Size = new System.Drawing.Size(40, 37);
             this.bX_in2.TabIndex = 9;
@@ -166,7 +166,7 @@
             // 
             // b1_x
             // 
-            this.b1_x.Location = new System.Drawing.Point(346, 223);
+            this.b1_x.Location = new System.Drawing.Point(198, 324);
             this.b1_x.Name = "b1_x";
             this.b1_x.Size = new System.Drawing.Size(40, 37);
             this.b1_x.TabIndex = 10;
@@ -176,7 +176,7 @@
             // 
             // bFact
             // 
-            this.bFact.Location = new System.Drawing.Point(392, 223);
+            this.bFact.Location = new System.Drawing.Point(244, 324);
             this.bFact.Name = "bFact";
             this.bFact.Size = new System.Drawing.Size(40, 37);
             this.bFact.TabIndex = 11;
@@ -186,7 +186,7 @@
             // 
             // bNum1
             // 
-            this.bNum1.Location = new System.Drawing.Point(12, 94);
+            this.bNum1.Location = new System.Drawing.Point(14, 94);
             this.bNum1.Name = "bNum1";
             this.bNum1.Size = new System.Drawing.Size(40, 37);
             this.bNum1.TabIndex = 12;
@@ -196,7 +196,7 @@
             // 
             // bNum4
             // 
-            this.bNum4.Location = new System.Drawing.Point(12, 137);
+            this.bNum4.Location = new System.Drawing.Point(14, 137);
             this.bNum4.Name = "bNum4";
             this.bNum4.Size = new System.Drawing.Size(40, 37);
             this.bNum4.TabIndex = 13;
@@ -206,7 +206,7 @@
             // 
             // bNum2
             // 
-            this.bNum2.Location = new System.Drawing.Point(58, 94);
+            this.bNum2.Location = new System.Drawing.Point(60, 94);
             this.bNum2.Name = "bNum2";
             this.bNum2.Size = new System.Drawing.Size(40, 37);
             this.bNum2.TabIndex = 14;
@@ -216,7 +216,7 @@
             // 
             // bNum3
             // 
-            this.bNum3.Location = new System.Drawing.Point(104, 94);
+            this.bNum3.Location = new System.Drawing.Point(106, 94);
             this.bNum3.Name = "bNum3";
             this.bNum3.Size = new System.Drawing.Size(40, 37);
             this.bNum3.TabIndex = 15;
@@ -226,7 +226,7 @@
             // 
             // bNum5
             // 
-            this.bNum5.Location = new System.Drawing.Point(58, 137);
+            this.bNum5.Location = new System.Drawing.Point(60, 137);
             this.bNum5.Name = "bNum5";
             this.bNum5.Size = new System.Drawing.Size(40, 37);
             this.bNum5.TabIndex = 16;
@@ -236,7 +236,7 @@
             // 
             // bNum6
             // 
-            this.bNum6.Location = new System.Drawing.Point(104, 137);
+            this.bNum6.Location = new System.Drawing.Point(106, 137);
             this.bNum6.Name = "bNum6";
             this.bNum6.Size = new System.Drawing.Size(40, 37);
             this.bNum6.TabIndex = 17;
@@ -306,7 +306,7 @@
             // 
             // bPlus
             // 
-            this.bPlus.Location = new System.Drawing.Point(181, 94);
+            this.bPlus.Location = new System.Drawing.Point(198, 94);
             this.bPlus.Name = "bPlus";
             this.bPlus.Size = new System.Drawing.Size(40, 37);
             this.bPlus.TabIndex = 24;
@@ -316,7 +316,7 @@
             // 
             // bMinus
             // 
-            this.bMinus.Location = new System.Drawing.Point(181, 137);
+            this.bMinus.Location = new System.Drawing.Point(198, 137);
             this.bMinus.Name = "bMinus";
             this.bMinus.Size = new System.Drawing.Size(40, 37);
             this.bMinus.TabIndex = 25;
@@ -326,7 +326,7 @@
             // 
             // bRavno
             // 
-            this.bRavno.Location = new System.Drawing.Point(227, 94);
+            this.bRavno.Location = new System.Drawing.Point(244, 94);
             this.bRavno.Name = "bRavno";
             this.bRavno.Size = new System.Drawing.Size(40, 166);
             this.bRavno.TabIndex = 26;
@@ -336,7 +336,7 @@
             // 
             // bUmn
             // 
-            this.bUmn.Location = new System.Drawing.Point(181, 180);
+            this.bUmn.Location = new System.Drawing.Point(198, 180);
             this.bUmn.Name = "bUmn";
             this.bUmn.Size = new System.Drawing.Size(40, 37);
             this.bUmn.TabIndex = 27;
@@ -346,7 +346,7 @@
             // 
             // bDelenie
             // 
-            this.bDelenie.Location = new System.Drawing.Point(181, 223);
+            this.bDelenie.Location = new System.Drawing.Point(198, 223);
             this.bDelenie.Name = "bDelenie";
             this.bDelenie.Size = new System.Drawing.Size(40, 37);
             this.bDelenie.TabIndex = 28;
@@ -363,7 +363,7 @@
             this.tb_Calc.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.tb_Calc.Location = new System.Drawing.Point(14, 29);
             this.tb_Calc.Name = "tb_Calc";
-            this.tb_Calc.Size = new System.Drawing.Size(413, 29);
+            this.tb_Calc.Size = new System.Drawing.Size(258, 29);
             this.tb_Calc.TabIndex = 29;
             this.tb_Calc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_Calc_KeyPress);
             // 
@@ -371,8 +371,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FloralWhite;
-            this.ClientSize = new System.Drawing.Size(449, 266);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(294, 370);
             this.Controls.Add(this.bTg);
             this.Controls.Add(this.bsin);
             this.Controls.Add(this.bCos);

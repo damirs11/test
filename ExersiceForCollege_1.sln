@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExersiceForCollege_1", "ExersiceForCollege_1\ExersiceForCollege_1.csproj", "{96FEEDC9-C9A3-4DC4-9395-F5C3A3A59A04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notepad", "ExersiceForCollege_1\Notepad.csproj", "{96FEEDC9-C9A3-4DC4-9395-F5C3A3A59A04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculate", "..\ExersiceForCollege_2\Calculate.csproj", "{8DC1372F-0884-4B0F-B07C-E69DBE9033A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculate", "ExersiceForCollege_2\Calculate.csproj", "{8DC1372F-0884-4B0F-B07C-E69DBE9033A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "budilnik", "..\ExersiceForCollege_3\budilnik.csproj", "{BC620E24-6713-44B2-9A34-BEA6D5690721}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "budilnik", "ExersiceForCollege_3\budilnik.csproj", "{BC620E24-6713-44B2-9A34-BEA6D5690721}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
