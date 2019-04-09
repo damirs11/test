@@ -1,0 +1,11 @@
+G:\workplace\ExersiceForCollege\ExersiceForCollege_1\ExersiceForCollege_1\bin\Debug\ExersiceForCollege_1.exe.config
+G:\workplace\ExersiceForCollege\ExersiceForCollege_1\ExersiceForCollege_1\bin\Debug\ExersiceForCollege_1.exe
+G:\workplace\ExersiceForCollege\ExersiceForCollege_1\ExersiceForCollege_1\bin\Debug\ExersiceForCollege_1.pdb
+G:\workplace\ExersiceForCollege\ExersiceForCollege_1\ExersiceForCollege_1\obj\Debug\ExersiceForCollege_1.csprojAssemblyReference.cache
+G:\workplace\ExersiceForCollege\ExersiceForCollege_1\ExersiceForCollege_1\obj\Debug\ExersiceForCollege_1.Form1.resources
+G:\workplace\ExersiceForCollege\ExersiceForCollege_1\ExersiceForCollege_1\obj\Debug\ExersiceForCollege_1.Form2.resources
+G:\workplace\ExersiceForCollege\ExersiceForCollege_1\ExersiceForCollege_1\obj\Debug\ExersiceForCollege_1.Properties.Resources.resources
+G:\workplace\ExersiceForCollege\ExersiceForCollege_1\ExersiceForCollege_1\obj\Debug\ExersiceForCollege_1.csproj.GenerateResource.cache
+G:\workplace\ExersiceForCollege\ExersiceForCollege_1\ExersiceForCollege_1\obj\Debug\ExersiceForCollege_1.csproj.CoreCompileInputs.cache
+G:\workplace\ExersiceForCollege\ExersiceForCollege_1\ExersiceForCollege_1\obj\Debug\ExersiceForCollege_1.exe
+G:\workplace\ExersiceForCollege\ExersiceForCollege_1\ExersiceForCollege_1\obj\Debug\ExersiceForCollege_1.pdb

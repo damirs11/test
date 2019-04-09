@@ -1,0 +1,19 @@
+c:\users\dmitry\documents\visual studio 2015\Projects\Calculate\Calculate\bin\Debug\Calculate.exe.config
+c:\users\dmitry\documents\visual studio 2015\Projects\Calculate\Calculate\bin\Debug\Calculate.exe
+c:\users\dmitry\documents\visual studio 2015\Projects\Calculate\Calculate\bin\Debug\Calculate.pdb
+c:\users\dmitry\documents\visual studio 2015\Projects\Calculate\Calculate\obj\Debug\Calculate.csprojResolveAssemblyReference.cache
+c:\users\dmitry\documents\visual studio 2015\Projects\Calculate\Calculate\obj\Debug\Calculate.fCalc.resources
+c:\users\dmitry\documents\visual studio 2015\Projects\Calculate\Calculate\obj\Debug\Calculate.Properties.Resources.resources
+c:\users\dmitry\documents\visual studio 2015\Projects\Calculate\Calculate\obj\Debug\Calculate.csproj.GenerateResource.Cache
+c:\users\dmitry\documents\visual studio 2015\Projects\Calculate\Calculate\obj\Debug\Calculate.exe
+c:\users\dmitry\documents\visual studio 2015\Projects\Calculate\Calculate\obj\Debug\Calculate.pdb
+G:\workplace\ExersiceForCollege\ExersiceForCollege_2\bin\Debug\Calculate.exe.config
+G:\workplace\ExersiceForCollege\ExersiceForCollege_2\bin\Debug\Calculate.exe
+G:\workplace\ExersiceForCollege\ExersiceForCollege_2\bin\Debug\Calculate.pdb
+G:\workplace\ExersiceForCollege\ExersiceForCollege_2\obj\Debug\Calculate.csprojAssemblyReference.cache
+G:\workplace\ExersiceForCollege\ExersiceForCollege_2\obj\Debug\Calculate.fCalc.resources
+G:\workplace\ExersiceForCollege\ExersiceForCollege_2\obj\Debug\Calculate.Properties.Resources.resources
+G:\workplace\ExersiceForCollege\ExersiceForCollege_2\obj\Debug\Calculate.csproj.GenerateResource.cache
+G:\workplace\ExersiceForCollege\ExersiceForCollege_2\obj\Debug\Calculate.csproj.CoreCompileInputs.cache
+G:\workplace\ExersiceForCollege\ExersiceForCollege_2\obj\Debug\Calculate.exe
+G:\workplace\ExersiceForCollege\ExersiceForCollege_2\obj\Debug\Calculate.pdb

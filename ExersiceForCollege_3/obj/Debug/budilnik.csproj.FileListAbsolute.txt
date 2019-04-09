@@ -1,0 +1,18 @@
+c:\users\юлия\documents\visual studio 2013\Projects\budilnik\budilnik\bin\Debug\budilnik.exe.config
+C:\Users\Юлия\Documents\Visual Studio 2013\Projects\budilnik\budilnik\bin\Debug\budilnik.exe
+C:\Users\Юлия\Documents\Visual Studio 2013\Projects\budilnik\budilnik\bin\Debug\budilnik.pdb
+C:\Users\Юлия\Documents\Visual Studio 2013\Projects\budilnik\budilnik\obj\Debug\budilnik.csprojResolveAssemblyReference.cache
+C:\Users\Юлия\Documents\Visual Studio 2013\Projects\budilnik\budilnik\obj\Debug\budilnik.Form1.resources
+C:\Users\Юлия\Documents\Visual Studio 2013\Projects\budilnik\budilnik\obj\Debug\budilnik.Properties.Resources.resources
+C:\Users\Юлия\Documents\Visual Studio 2013\Projects\budilnik\budilnik\obj\Debug\budilnik.csproj.GenerateResource.Cache
+C:\Users\Юлия\Documents\Visual Studio 2013\Projects\budilnik\budilnik\obj\Debug\budilnik.exe
+C:\Users\Юлия\Documents\Visual Studio 2013\Projects\budilnik\budilnik\obj\Debug\budilnik.pdb
+G:\workplace\ExersiceForCollege\ExersiceForCollege_3\bin\Debug\budilnik.exe.config
+G:\workplace\ExersiceForCollege\ExersiceForCollege_3\bin\Debug\budilnik.exe
+G:\workplace\ExersiceForCollege\ExersiceForCollege_3\bin\Debug\budilnik.pdb
+G:\workplace\ExersiceForCollege\ExersiceForCollege_3\obj\Debug\budilnik.Form1.resources
+G:\workplace\ExersiceForCollege\ExersiceForCollege_3\obj\Debug\budilnik.Properties.Resources.resources
+G:\workplace\ExersiceForCollege\ExersiceForCollege_3\obj\Debug\budilnik.csproj.GenerateResource.cache
+G:\workplace\ExersiceForCollege\ExersiceForCollege_3\obj\Debug\budilnik.csproj.CoreCompileInputs.cache
+G:\workplace\ExersiceForCollege\ExersiceForCollege_3\obj\Debug\budilnik.exe
+G:\workplace\ExersiceForCollege\ExersiceForCollege_3\obj\Debug\budilnik.pdb
