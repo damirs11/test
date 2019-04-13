@@ -153,7 +153,12 @@ namespace Calculate
 
                     if (op > 0)
                         bRavno_Click(sender, e);
-                    a = Convert.ToDouble(tb_Calc.Text);
+
+                    if (tb_Calc.Text.IndexOf(",") == -1)
+                        a = Convert.ToInt32(tb_Calc.Text, gCC);
+                    else
+                        a = Convert.ToDouble(tb_Calc.Text);
+
                     NewOp = true;
                     op = 2;
                 }
@@ -170,7 +175,12 @@ namespace Calculate
                 
                 if (op > 0)
                     bRavno_Click(sender, e);
-                a = Convert.ToDouble(tb_Calc.Text);
+
+                if (tb_Calc.Text.IndexOf(",") == -1)
+                    a = Convert.ToInt32(tb_Calc.Text, gCC);
+                else
+                    a = Convert.ToDouble(tb_Calc.Text);
+
                 NewOp = true;
                 op = 3;
             }
@@ -184,7 +194,12 @@ namespace Calculate
                 
                 if (op > 0)
                     bRavno_Click(sender, e);
-                a = Convert.ToDouble(tb_Calc.Text);
+
+                if (tb_Calc.Text.IndexOf(",") == -1)
+                    a = Convert.ToInt32(tb_Calc.Text, gCC);
+                else
+                    a = Convert.ToDouble(tb_Calc.Text);
+
                 NewOp = true;
                 op = 4;
             }
