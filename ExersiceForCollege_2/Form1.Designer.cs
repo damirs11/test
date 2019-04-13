@@ -31,15 +31,8 @@
             this.bsin = new System.Windows.Forms.Button();
             this.bCos = new System.Windows.Forms.Button();
             this.bTg = new System.Windows.Forms.Button();
-            this.bCtg = new System.Windows.Forms.Button();
-            this.bAbs = new System.Windows.Forms.Button();
             this.bLn = new System.Windows.Forms.Button();
-            this.bExp = new System.Windows.Forms.Button();
             this.bx_y = new System.Windows.Forms.Button();
-            this.bSqrt = new System.Windows.Forms.Button();
-            this.bX_in2 = new System.Windows.Forms.Button();
-            this.b1_x = new System.Windows.Forms.Button();
-            this.bFact = new System.Windows.Forms.Button();
             this.bNum1 = new System.Windows.Forms.Button();
             this.bNum4 = new System.Windows.Forms.Button();
             this.bNum2 = new System.Windows.Forms.Button();
@@ -58,11 +51,22 @@
             this.bUmn = new System.Windows.Forms.Button();
             this.bDelenie = new System.Windows.Forms.Button();
             this.tb_Calc = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.СС8 = new System.Windows.Forms.Button();
+            this.СС2 = new System.Windows.Forms.Button();
+            this.СС10 = new System.Windows.Forms.Button();
+            this.СС16 = new System.Windows.Forms.Button();
+            this.bC = new System.Windows.Forms.Button();
+            this.bB = new System.Windows.Forms.Button();
+            this.bA = new System.Windows.Forms.Button();
+            this.bD = new System.Windows.Forms.Button();
+            this.bE = new System.Windows.Forms.Button();
+            this.bF = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bsin
             // 
-            this.bsin.Location = new System.Drawing.Point(14, 278);
+            this.bsin.Location = new System.Drawing.Point(14, 382);
             this.bsin.Name = "bsin";
             this.bsin.Size = new System.Drawing.Size(40, 37);
             this.bsin.TabIndex = 0;
@@ -73,7 +77,7 @@
             // bCos
             // 
             this.bCos.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.bCos.Location = new System.Drawing.Point(60, 279);
+            this.bCos.Location = new System.Drawing.Point(14, 424);
             this.bCos.Name = "bCos";
             this.bCos.Size = new System.Drawing.Size(40, 37);
             this.bCos.TabIndex = 1;
@@ -83,7 +87,7 @@
             // 
             // bTg
             // 
-            this.bTg.Location = new System.Drawing.Point(106, 280);
+            this.bTg.Location = new System.Drawing.Point(60, 382);
             this.bTg.Name = "bTg";
             this.bTg.Size = new System.Drawing.Size(40, 37);
             this.bTg.TabIndex = 2;
@@ -91,30 +95,9 @@
             this.bTg.UseVisualStyleBackColor = true;
             this.bTg.Click += new System.EventHandler(this.bTg_Click);
             // 
-            // bCtg
-            // 
-            this.bCtg.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.bCtg.Location = new System.Drawing.Point(152, 280);
-            this.bCtg.Name = "bCtg";
-            this.bCtg.Size = new System.Drawing.Size(40, 37);
-            this.bCtg.TabIndex = 3;
-            this.bCtg.Text = "ctg(x)";
-            this.bCtg.UseVisualStyleBackColor = true;
-            this.bCtg.Click += new System.EventHandler(this.bCtg_Click);
-            // 
-            // bAbs
-            // 
-            this.bAbs.Location = new System.Drawing.Point(198, 279);
-            this.bAbs.Name = "bAbs";
-            this.bAbs.Size = new System.Drawing.Size(40, 37);
-            this.bAbs.TabIndex = 4;
-            this.bAbs.Text = "|x|";
-            this.bAbs.UseVisualStyleBackColor = true;
-            this.bAbs.Click += new System.EventHandler(this.bAbs_Click);
-            // 
             // bLn
             // 
-            this.bLn.Location = new System.Drawing.Point(244, 279);
+            this.bLn.Location = new System.Drawing.Point(60, 424);
             this.bLn.Name = "bLn";
             this.bLn.Size = new System.Drawing.Size(40, 37);
             this.bLn.TabIndex = 5;
@@ -122,67 +105,15 @@
             this.bLn.UseVisualStyleBackColor = true;
             this.bLn.Click += new System.EventHandler(this.bLn_Click);
             // 
-            // bExp
-            // 
-            this.bExp.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.bExp.Location = new System.Drawing.Point(14, 325);
-            this.bExp.Name = "bExp";
-            this.bExp.Size = new System.Drawing.Size(40, 37);
-            this.bExp.TabIndex = 6;
-            this.bExp.Text = "exp(x)";
-            this.bExp.UseVisualStyleBackColor = true;
-            this.bExp.Click += new System.EventHandler(this.bExp_Click);
-            // 
             // bx_y
             // 
-            this.bx_y.Location = new System.Drawing.Point(106, 324);
+            this.bx_y.Location = new System.Drawing.Point(104, 424);
             this.bx_y.Name = "bx_y";
             this.bx_y.Size = new System.Drawing.Size(40, 37);
             this.bx_y.TabIndex = 7;
             this.bx_y.Text = "x^y";
             this.bx_y.UseVisualStyleBackColor = true;
             this.bx_y.Click += new System.EventHandler(this.bx_y_Click);
-            // 
-            // bSqrt
-            // 
-            this.bSqrt.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.bSqrt.Location = new System.Drawing.Point(60, 325);
-            this.bSqrt.Name = "bSqrt";
-            this.bSqrt.Size = new System.Drawing.Size(40, 37);
-            this.bSqrt.TabIndex = 8;
-            this.bSqrt.Text = "sqrt(x)";
-            this.bSqrt.UseVisualStyleBackColor = true;
-            this.bSqrt.Click += new System.EventHandler(this.bSqrt_Click);
-            // 
-            // bX_in2
-            // 
-            this.bX_in2.Location = new System.Drawing.Point(152, 324);
-            this.bX_in2.Name = "bX_in2";
-            this.bX_in2.Size = new System.Drawing.Size(40, 37);
-            this.bX_in2.TabIndex = 9;
-            this.bX_in2.Text = "x^2";
-            this.bX_in2.UseVisualStyleBackColor = true;
-            this.bX_in2.Click += new System.EventHandler(this.bX_in2_Click);
-            // 
-            // b1_x
-            // 
-            this.b1_x.Location = new System.Drawing.Point(198, 324);
-            this.b1_x.Name = "b1_x";
-            this.b1_x.Size = new System.Drawing.Size(40, 37);
-            this.b1_x.TabIndex = 10;
-            this.b1_x.Text = "1/x";
-            this.b1_x.UseVisualStyleBackColor = true;
-            this.b1_x.Click += new System.EventHandler(this.b1_x_Click);
-            // 
-            // bFact
-            // 
-            this.bFact.Location = new System.Drawing.Point(244, 324);
-            this.bFact.Name = "bFact";
-            this.bFact.Size = new System.Drawing.Size(40, 37);
-            this.bFact.TabIndex = 11;
-            this.bFact.Text = "n!";
-            this.bFact.UseVisualStyleBackColor = true;
-            this.bFact.Click += new System.EventHandler(this.bFact_Click);
             // 
             // bNum1
             // 
@@ -216,7 +147,7 @@
             // 
             // bNum3
             // 
-            this.bNum3.Location = new System.Drawing.Point(106, 94);
+            this.bNum3.Location = new System.Drawing.Point(104, 94);
             this.bNum3.Name = "bNum3";
             this.bNum3.Size = new System.Drawing.Size(40, 37);
             this.bNum3.TabIndex = 15;
@@ -236,7 +167,7 @@
             // 
             // bNum6
             // 
-            this.bNum6.Location = new System.Drawing.Point(106, 137);
+            this.bNum6.Location = new System.Drawing.Point(104, 137);
             this.bNum6.Name = "bNum6";
             this.bNum6.Size = new System.Drawing.Size(40, 37);
             this.bNum6.TabIndex = 17;
@@ -306,7 +237,7 @@
             // 
             // bPlus
             // 
-            this.bPlus.Location = new System.Drawing.Point(198, 94);
+            this.bPlus.Location = new System.Drawing.Point(195, 94);
             this.bPlus.Name = "bPlus";
             this.bPlus.Size = new System.Drawing.Size(40, 37);
             this.bPlus.TabIndex = 24;
@@ -316,7 +247,7 @@
             // 
             // bMinus
             // 
-            this.bMinus.Location = new System.Drawing.Point(198, 137);
+            this.bMinus.Location = new System.Drawing.Point(195, 137);
             this.bMinus.Name = "bMinus";
             this.bMinus.Size = new System.Drawing.Size(40, 37);
             this.bMinus.TabIndex = 25;
@@ -326,7 +257,7 @@
             // 
             // bRavno
             // 
-            this.bRavno.Location = new System.Drawing.Point(244, 94);
+            this.bRavno.Location = new System.Drawing.Point(239, 94);
             this.bRavno.Name = "bRavno";
             this.bRavno.Size = new System.Drawing.Size(40, 166);
             this.bRavno.TabIndex = 26;
@@ -336,7 +267,7 @@
             // 
             // bUmn
             // 
-            this.bUmn.Location = new System.Drawing.Point(198, 180);
+            this.bUmn.Location = new System.Drawing.Point(195, 180);
             this.bUmn.Name = "bUmn";
             this.bUmn.Size = new System.Drawing.Size(40, 37);
             this.bUmn.TabIndex = 27;
@@ -346,7 +277,7 @@
             // 
             // bDelenie
             // 
-            this.bDelenie.Location = new System.Drawing.Point(198, 223);
+            this.bDelenie.Location = new System.Drawing.Point(195, 223);
             this.bDelenie.Name = "bDelenie";
             this.bDelenie.Size = new System.Drawing.Size(40, 37);
             this.bDelenie.TabIndex = 28;
@@ -361,38 +292,161 @@
             this.tb_Calc.BackColor = System.Drawing.SystemColors.Menu;
             this.tb_Calc.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.tb_Calc.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.tb_Calc.Location = new System.Drawing.Point(14, 29);
+            this.tb_Calc.Location = new System.Drawing.Point(14, 12);
             this.tb_Calc.Name = "tb_Calc";
-            this.tb_Calc.Size = new System.Drawing.Size(258, 29);
+            this.tb_Calc.Size = new System.Drawing.Size(256, 29);
             this.tb_Calc.TabIndex = 29;
+            this.tb_Calc.TextChanged += new System.EventHandler(this.tb_Calc_TextChanged);
             this.tb_Calc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_Calc_KeyPress);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(104, 382);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(40, 37);
+            this.button1.TabIndex = 30;
+            this.button1.Text = "lg(x)";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // СС8
+            // 
+            this.СС8.Location = new System.Drawing.Point(239, 266);
+            this.СС8.Name = "СС8";
+            this.СС8.Size = new System.Drawing.Size(40, 37);
+            this.СС8.TabIndex = 34;
+            this.СС8.Text = "СС  8";
+            this.СС8.UseVisualStyleBackColor = true;
+            this.СС8.Click += new System.EventHandler(this.СС8_Click);
+            // 
+            // СС2
+            // 
+            this.СС2.Location = new System.Drawing.Point(195, 266);
+            this.СС2.Name = "СС2";
+            this.СС2.Size = new System.Drawing.Size(40, 37);
+            this.СС2.TabIndex = 31;
+            this.СС2.Text = "СС  2";
+            this.СС2.UseVisualStyleBackColor = true;
+            this.СС2.Click += new System.EventHandler(this.СС2_Click);
+            // 
+            // СС10
+            // 
+            this.СС10.Enabled = false;
+            this.СС10.Location = new System.Drawing.Point(195, 308);
+            this.СС10.Name = "СС10";
+            this.СС10.Size = new System.Drawing.Size(40, 37);
+            this.СС10.TabIndex = 32;
+            this.СС10.Text = "СС 10";
+            this.СС10.UseVisualStyleBackColor = true;
+            this.СС10.Click += new System.EventHandler(this.СС10_Click);
+            // 
+            // СС16
+            // 
+            this.СС16.Location = new System.Drawing.Point(239, 308);
+            this.СС16.Name = "СС16";
+            this.СС16.Size = new System.Drawing.Size(40, 37);
+            this.СС16.TabIndex = 33;
+            this.СС16.Text = "СС 16";
+            this.СС16.UseVisualStyleBackColor = true;
+            this.СС16.Click += new System.EventHandler(this.СС16_Click);
+            // 
+            // bC
+            // 
+            this.bC.Enabled = false;
+            this.bC.Location = new System.Drawing.Point(104, 266);
+            this.bC.Name = "bC";
+            this.bC.Size = new System.Drawing.Size(40, 37);
+            this.bC.TabIndex = 40;
+            this.bC.Text = "C";
+            this.bC.UseVisualStyleBackColor = true;
+            this.bC.Click += new System.EventHandler(this.bC_Click);
+            // 
+            // bB
+            // 
+            this.bB.Enabled = false;
+            this.bB.Location = new System.Drawing.Point(60, 266);
+            this.bB.Name = "bB";
+            this.bB.Size = new System.Drawing.Size(40, 37);
+            this.bB.TabIndex = 37;
+            this.bB.Text = "B";
+            this.bB.UseVisualStyleBackColor = true;
+            this.bB.Click += new System.EventHandler(this.bB_Click);
+            // 
+            // bA
+            // 
+            this.bA.Enabled = false;
+            this.bA.Location = new System.Drawing.Point(14, 266);
+            this.bA.Name = "bA";
+            this.bA.Size = new System.Drawing.Size(40, 37);
+            this.bA.TabIndex = 35;
+            this.bA.Text = "A";
+            this.bA.UseVisualStyleBackColor = true;
+            this.bA.Click += new System.EventHandler(this.bA_Click);
+            // 
+            // bD
+            // 
+            this.bD.Enabled = false;
+            this.bD.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.bD.Location = new System.Drawing.Point(14, 308);
+            this.bD.Name = "bD";
+            this.bD.Size = new System.Drawing.Size(40, 37);
+            this.bD.TabIndex = 36;
+            this.bD.Text = "D";
+            this.bD.UseVisualStyleBackColor = true;
+            this.bD.Click += new System.EventHandler(this.bD_Click);
+            // 
+            // bE
+            // 
+            this.bE.Enabled = false;
+            this.bE.Location = new System.Drawing.Point(60, 308);
+            this.bE.Name = "bE";
+            this.bE.Size = new System.Drawing.Size(40, 37);
+            this.bE.TabIndex = 38;
+            this.bE.Text = "E";
+            this.bE.UseVisualStyleBackColor = true;
+            this.bE.Click += new System.EventHandler(this.bE_Click);
+            // 
+            // bF
+            // 
+            this.bF.Enabled = false;
+            this.bF.Location = new System.Drawing.Point(104, 308);
+            this.bF.Name = "bF";
+            this.bF.Size = new System.Drawing.Size(40, 37);
+            this.bF.TabIndex = 39;
+            this.bF.Text = "F";
+            this.bF.UseVisualStyleBackColor = true;
+            this.bF.Click += new System.EventHandler(this.bF_Click);
             // 
             // fCalc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(294, 370);
+            this.ClientSize = new System.Drawing.Size(292, 472);
+            this.Controls.Add(this.bC);
+            this.Controls.Add(this.bB);
+            this.Controls.Add(this.bA);
+            this.Controls.Add(this.bD);
+            this.Controls.Add(this.bE);
+            this.Controls.Add(this.bF);
+            this.Controls.Add(this.СС8);
+            this.Controls.Add(this.СС2);
+            this.Controls.Add(this.СС10);
+            this.Controls.Add(this.СС16);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.bTg);
             this.Controls.Add(this.bsin);
             this.Controls.Add(this.bCos);
-            this.Controls.Add(this.bCtg);
             this.Controls.Add(this.tb_Calc);
-            this.Controls.Add(this.bAbs);
             this.Controls.Add(this.bDelenie);
             this.Controls.Add(this.bLn);
             this.Controls.Add(this.bUmn);
-            this.Controls.Add(this.bExp);
             this.Controls.Add(this.bRavno);
             this.Controls.Add(this.bx_y);
             this.Controls.Add(this.bMinus);
-            this.Controls.Add(this.bSqrt);
             this.Controls.Add(this.bPlus);
-            this.Controls.Add(this.bX_in2);
             this.Controls.Add(this.bPoint);
-            this.Controls.Add(this.b1_x);
             this.Controls.Add(this.bNum0);
-            this.Controls.Add(this.bFact);
             this.Controls.Add(this.bClear);
             this.Controls.Add(this.bNum9);
             this.Controls.Add(this.bNum7);
@@ -422,15 +476,8 @@
         private System.Windows.Forms.Button bsin;
         private System.Windows.Forms.Button bCos;
         private System.Windows.Forms.Button bTg;
-        private System.Windows.Forms.Button bCtg;
-        private System.Windows.Forms.Button bAbs;
         private System.Windows.Forms.Button bLn;
-        private System.Windows.Forms.Button bExp;
         private System.Windows.Forms.Button bx_y;
-        private System.Windows.Forms.Button bSqrt;
-        private System.Windows.Forms.Button bX_in2;
-        private System.Windows.Forms.Button b1_x;
-        private System.Windows.Forms.Button bFact;
         private System.Windows.Forms.Button bNum1;
         private System.Windows.Forms.Button bNum4;
         private System.Windows.Forms.Button bNum2;
@@ -449,6 +496,17 @@
         private System.Windows.Forms.Button bUmn;
         private System.Windows.Forms.Button bDelenie;
         private System.Windows.Forms.TextBox tb_Calc;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button СС8;
+        private System.Windows.Forms.Button СС2;
+        private System.Windows.Forms.Button СС10;
+        private System.Windows.Forms.Button СС16;
+        private System.Windows.Forms.Button bC;
+        private System.Windows.Forms.Button bB;
+        private System.Windows.Forms.Button bA;
+        private System.Windows.Forms.Button bD;
+        private System.Windows.Forms.Button bE;
+        private System.Windows.Forms.Button bF;
     }
 }
 
