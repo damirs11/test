@@ -62,6 +62,8 @@
             this.bD = new System.Windows.Forms.Button();
             this.bE = new System.Windows.Forms.Button();
             this.bF = new System.Windows.Forms.Button();
+            this.Radian = new System.Windows.Forms.Button();
+            this.Degrees = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bsin
@@ -417,12 +419,35 @@
             this.bF.UseVisualStyleBackColor = true;
             this.bF.Click += new System.EventHandler(this.bF_Click);
             // 
+            // Radian
+            // 
+            this.Radian.Location = new System.Drawing.Point(239, 382);
+            this.Radian.Name = "Radian";
+            this.Radian.Size = new System.Drawing.Size(40, 37);
+            this.Radian.TabIndex = 44;
+            this.Radian.Text = "RAD";
+            this.Radian.UseVisualStyleBackColor = true;
+            this.Radian.Click += new System.EventHandler(this.Radian_Click);
+            // 
+            // Degrees
+            // 
+            this.Degrees.AutoEllipsis = true;
+            this.Degrees.Location = new System.Drawing.Point(195, 382);
+            this.Degrees.Name = "Degrees";
+            this.Degrees.Size = new System.Drawing.Size(40, 37);
+            this.Degrees.TabIndex = 41;
+            this.Degrees.Text = "DEG";
+            this.Degrees.UseVisualStyleBackColor = true;
+            this.Degrees.Click += new System.EventHandler(this.Degrees_Click);
+            // 
             // fCalc
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(292, 472);
+            this.ClientSize = new System.Drawing.Size(292, 474);
+            this.Controls.Add(this.Radian);
+            this.Controls.Add(this.Degrees);
             this.Controls.Add(this.bC);
             this.Controls.Add(this.bB);
             this.Controls.Add(this.bA);
@@ -507,6 +532,8 @@
         private System.Windows.Forms.Button bD;
         private System.Windows.Forms.Button bE;
         private System.Windows.Forms.Button bF;
+        private System.Windows.Forms.Button Radian;
+        private System.Windows.Forms.Button Degrees;
     }
 }
 

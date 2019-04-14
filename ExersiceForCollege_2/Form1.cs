@@ -19,7 +19,7 @@ namespace Calculate
             InitializeComponent();
         }
 
-
+        bool R_D = false;
         bool NewOp = true;
         int op = -1;
         double a = 0, b = 0, c = 0;
@@ -555,6 +555,27 @@ namespace Calculate
                 NewOp = false;
             }
             else tb_Calc.Text += (sender as Button).Text;
+        }
+
+        private void Degrees_Click(object sender, EventArgs e)
+        {
+            Degrees.Enabled = false;
+            Radian.Enabled = true;
+            if (R_D)
+                tb_Calc.Text = Convert.ToString(Convert.ToDouble(tb_Calc.Text) * (180 / Math.PI));
+            else
+                R_D = true;
+            
+        }
+
+        private void Radian_Click(object sender, EventArgs e)
+        {
+            Degrees.Enabled = true;
+            Radian.Enabled = false;
+            if (R_D)
+                tb_Calc.Text = Convert.ToString(Convert.ToDouble(tb_Calc.Text) * (Math.PI / 180));
+            else
+                R_D = true;
         }
 
         private void оПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
