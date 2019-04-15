@@ -25,7 +25,10 @@ namespace budilnik
         public Form3(ref DataGridView dataGrid)
         {
             InitializeComponent();
-            this.dataGrid = dataGrid;  
+            this.dataGrid = dataGrid;
+
+            maskedTextBox1.Text = DateTime.Now.ToString("HH:mm:ss");
+            dateTimePicker1.Value = DateTime.Now;
         }
 
         public Form3(ref DataGridView dataGrid, ref DataGridViewRow dataGridRow)
@@ -33,14 +36,14 @@ namespace budilnik
             InitializeComponent();
             this.dataGrid = dataGrid;
 
-            maskedTextBox1.Text = dataGridRow.Cells[0].Value.ToString();
+            maskedTextBox1.Text = dataGridRow.Cells["alarmTime"].Value.ToString();
 
-            string iDate = dataGridRow.Cells[1].Value.ToString();
+            string iDate = dataGridRow.Cells["Date"].Value.ToString();
             DateTime oDate = Convert.ToDateTime(iDate);
             dateTimePicker1.Value = oDate;
 
-            textBox2.Text = dataGridRow.Cells[2].Value.ToString();
-            label4.Text = dataGridRow.Cells[3].Value.ToString();
+            textBox2.Text = dataGridRow.Cells["message"].Value.ToString();
+            label4.Text = dataGridRow.Cells["soundPath"].Value.ToString();
 
             editing = true;
             selectedRow = dataGridRow;
@@ -58,18 +61,18 @@ namespace budilnik
             this.Message = textBox2.Text;
             Path = openFileDialog1.FileName == "openFileDialog1" ? "" : openFileDialog1.FileName;
 
-
-
             if (!editing)
-                dataGrid.Rows.Add(Time, Date, this.Message, Path);
+                dataGrid.Rows.Add(true, Time, Date, this.Message, Path);
             else
-                selectedRow.SetValues(Time, Date, this.Message, Path);
+                selectedRow.SetValues(true, Time, Date, this.Message, Path);
 
             this.Close();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            openFileDialog1.Filter = "MP3 Files(*.wav)|*.txt|All files(*.*)|*.*";
+
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
                 label4.Text = openFileDialog1.FileName;
             else

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,6 +28,48 @@ namespace budilnik
         private void realTime_Tick(object sender, EventArgs e)
         {
             toolStripStatusLabel1.Text = DateTime.Now.ToString("ddd, dd MMMM yyyy HH:mm:ss");
+
+            
+
+            foreach (DataGridViewRow row in dataGridView1.Rows)
+            {
+                DataGridViewCheckBoxCell chk = row.Cells[0] as DataGridViewCheckBoxCell;
+                bool alarmStatus = Convert.ToBoolean(chk.Value);
+                string time = row.Cells[1].Value.ToString();
+                string date = row.Cells[2].Value.ToString();
+
+                
+                
+
+                if (alarmStatus &&
+                    time == DateTime.Now.ToString("HH:mm:ss") &&
+                    date == DateTime.Now.ToString("dd MMMM yyyy"))
+                {
+                    row.Cells[0].Value = false;
+
+                    if (File.Exists(row.Cells["soundPath"].ToString()))
+                    {
+                        try
+                        {
+                            System.Media.SoundPlayer player = new System.Media.SoundPlayer(row.Cells[4].Value.ToString());
+                            player.Load();
+                            player.Play();
+                            DialogResult result = MessageBox.Show(this, row.Cells[3].Value.ToString(), "Будильник прокнул", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            if (result == DialogResult.OK)
+                            {
+                                player.Stop();
+                            }
+                        }
+                        catch (InvalidOperationException)
+                        {
+                            DialogResult result = MessageBox.Show(this, row.Cells[3].Value.ToString(), "Будильник прокнул", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        
+                    }
+                    
+                }
+                
+            }
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
