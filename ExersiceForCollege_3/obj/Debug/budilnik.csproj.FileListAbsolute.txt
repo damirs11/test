@@ -19,3 +19,15 @@ G:\workplace\ExersiceForCollege\ExersiceForCollege_3\obj\Debug\budilnik.pdb
 G:\workplace\ExersiceForCollege\ExersiceForCollege_3\obj\Debug\budilnik.csprojAssemblyReference.cache
 G:\workplace\ExersiceForCollege\ExersiceForCollege_3\obj\Debug\budilnik.Form2.resources
 G:\workplace\ExersiceForCollege\ExersiceForCollege_3\obj\Debug\budilnik.Form3.resources
+C:\workplace\test\ExersiceForCollege_3\bin\Debug\budilnik.exe.config
+C:\workplace\test\ExersiceForCollege_3\bin\Debug\budilnik.exe
+C:\workplace\test\ExersiceForCollege_3\bin\Debug\budilnik.pdb
+C:\workplace\test\ExersiceForCollege_3\obj\Debug\budilnik.csprojAssemblyReference.cache
+C:\workplace\test\ExersiceForCollege_3\obj\Debug\budilnik.Form1.resources
+C:\workplace\test\ExersiceForCollege_3\obj\Debug\budilnik.Form2.resources
+C:\workplace\test\ExersiceForCollege_3\obj\Debug\budilnik.Form3.resources
+C:\workplace\test\ExersiceForCollege_3\obj\Debug\budilnik.Properties.Resources.resources
+C:\workplace\test\ExersiceForCollege_3\obj\Debug\budilnik.csproj.GenerateResource.cache
+C:\workplace\test\ExersiceForCollege_3\obj\Debug\budilnik.csproj.CoreCompileInputs.cache
+C:\workplace\test\ExersiceForCollege_3\obj\Debug\budilnik.exe
+C:\workplace\test\ExersiceForCollege_3\obj\Debug\budilnik.pdb
