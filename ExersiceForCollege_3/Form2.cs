@@ -49,24 +49,19 @@ namespace budilnik
 
                     if (File.Exists(row.Cells["soundPath"].ToString()))
                     {
-                        try
+                        System.Media.SoundPlayer player = new System.Media.SoundPlayer(row.Cells[4].Value.ToString());
+                        player.Load();
+                        player.Play();
+                        DialogResult result = MessageBox.Show(this, row.Cells[3].Value.ToString(), "Будильник прокнул", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        if (result == DialogResult.OK)
                         {
-                            System.Media.SoundPlayer player = new System.Media.SoundPlayer(row.Cells[4].Value.ToString());
-                            player.Load();
-                            player.Play();
-                            DialogResult result = MessageBox.Show(this, row.Cells[3].Value.ToString(), "Будильник прокнул", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            if (result == DialogResult.OK)
-                            {
-                                player.Stop();
-                            }
-                        }
-                        catch (InvalidOperationException)
-                        {
-                            DialogResult result = MessageBox.Show(this, row.Cells[3].Value.ToString(), "Будильник прокнул", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                        }
-                        
+                            player.Stop();
+                        }                                                
                     }
+                    else
+                        MessageBox.Show(this, row.Cells[3].Value.ToString(), "Будильник прокнул", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     
+
                 }
                 
             }
