@@ -16,12 +16,15 @@ namespace WindowsFormsApp1
     {
         bool alive = false; 
         UdpClient client;
-        const int LOCALPORT = 5000; 
+
+        const int LOCALPORT = 6000; 
         const int REMOTEPORT = 6000; 
         const int TTL = 20;
         const string HOST = "235.5.5.1"; 
+
         IPAddress groupAddress;
         IPEndPoint localpt = new IPEndPoint(IPAddress.Any, REMOTEPORT);
+
         string userName; 
         public Form1()
         {
@@ -42,15 +45,12 @@ namespace WindowsFormsApp1
 
             try
             {
-                client = new UdpClient(REMOTEPORT);
-                // присоединяемся к групповой рассылке
+                client = new UdpClient(LOCALPORT);
                 client.JoinMulticastGroup(groupAddress, TTL);
 
-                // запускаем задачу на прием сообщений
                 Task receiveTask = new Task(ReceiveMessages);
                 receiveTask.Start();
 
-                // отправляем первое сообщение о входе нового пользователя
                 string message = userName + " вошел в чат";
                 byte[] data = Encoding.Unicode.GetBytes(message);
                 client.Send(data, data.Length, HOST, REMOTEPORT);
@@ -61,15 +61,12 @@ namespace WindowsFormsApp1
             }
             catch (Exception ex)
             {
-                client = new UdpClient(LOCALPORT);
-                // присоединяемся к групповой рассылке
+                client = new UdpClient(LOCALPORT + 1);
                 client.JoinMulticastGroup(groupAddress, TTL);
 
-                // запускаем задачу на прием сообщений
                 Task receiveTask = new Task(ReceiveMessages);
                 receiveTask.Start();
 
-                // отправляем первое сообщение о входе нового пользователя
                 string message = userName + " вошел в чат";
                 byte[] data = Encoding.Unicode.GetBytes(message);
                 client.Send(data, data.Length, HOST, REMOTEPORT);
@@ -91,7 +88,6 @@ namespace WindowsFormsApp1
                     byte[] data = client.Receive(ref remoteIp);
                     string message = Encoding.Unicode.GetString(data);
 
-                    // добавляем полученное сообщение в текстовое поле
                     this.Invoke(new MethodInvoker(() =>
                     {
                         string time = DateTime.Now.ToShortTimeString();
